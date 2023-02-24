@@ -98,5 +98,5 @@ WSL distros running.
 Run the following command to start the cloud-cli-os distro and start a shell.
 
 ```
-wsl -d uxos2-full
+wsl -d cloud-cli-os
 ```
