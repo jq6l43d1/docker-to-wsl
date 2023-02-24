@@ -1,13 +1,14 @@
 # docker-to-wsl
 
-Shows how to build a Docker image, run a Docker container, export the container, and import it into WSL.
-This readme explains how to do the Docker steps using Linux. The WSL steps will of course be using Windows.
-One could do the steps that involve Docker on Windows but that won't be covered here.
+The repository provides instructions on creating a Docker image, starting a Docker container, exporting 
+it, and importing it into WSL. The included readme details the necessary Linux commands for working with 
+Docker, while the Windows-specific instructions for WSL are also covered. While it's possible to perform 
+the Docker-related steps on Windows, this guide only covers the Linux approach.
 
 ## What does this Docker file do?
 
-This Docker file builds a fairly simple example Docker image. It's based on the latest LTS version of Ubuntu
-and has the latest versions of the CLI tools for the 3 major cloud providers (Amazon, Azure, and Google).
+This Docker file builds a fairly simple example Docker image. It's based on whatever the latest LTS version
+of Ubuntu and has the latest versions of the CLI tools for the 3 major cloud providers (Amazon, Azure, and Google).
 
 ## How do I go from a Docker file to a running WSL distro?
 
@@ -75,10 +76,9 @@ For example:
 C:\Users\my-username\distros\cloud-cli-os\
 
 Move the .tar file, or the .tar.bz2 file if you chose to use compression, over to
-the file where you want your imported filesystem to be on your Windows computer.
-Open command prompt and change directories to this location.
-
-Extract the file if you chose to use compression.
+the folder where you want your imported filesystem to be on your Windows computer.
+Extract the file if you chose to use compression. Open command prompt and change
+directories to this location.
 
 In this example the command would be:
 
