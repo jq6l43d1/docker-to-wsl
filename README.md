@@ -10,6 +10,10 @@ the Docker-related steps on Windows, this guide only covers the Linux approach.
 This Docker file builds a fairly simple example Docker image. It's based on whatever the latest LTS version
 of Ubuntu and has the latest versions of the CLI tools for the 3 major cloud providers (Amazon, Azure, and Google).
 
+## What does docker-to-wsl.sh do?
+
+This is a bash script that will do steps 1-4 from the instructions below for you automatically for you. Just download the script and run it.
+
 ## How do I go from a Docker file to a running WSL distro?
 
 Follow these steps.
